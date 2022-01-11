@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con gifGridExpert Dederia mostrar el copmponente correctamente 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__lightSpeedInLeft animate__delay-1s"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas con gifGridExpert debe mostrar una lista de coategorias 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__lightSpeedInLeft animate__delay-1s"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      categoria="juan"
+      key="juan"
+    />
+    <GifGrid
+      categoria="pepe"
+      key="pepe"
+    />
+  </ol>
+</Fragment>
+`;

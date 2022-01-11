@@ -9,6 +9,7 @@ export const AddCategory = ({setCategory}) => {
     }
     const submit = (e)=>{
         e.preventDefault()
+        console.log("Submit")
         if (texto.trim().length > 2) {
             setCategory(cats => [texto,...cats])
             setTexto('')
@@ -16,6 +17,7 @@ export const AddCategory = ({setCategory}) => {
     }
     return (
         <form onSubmit={submit} >
+            <p> {texto}</p>
             <input
             value={texto}
             type="text"

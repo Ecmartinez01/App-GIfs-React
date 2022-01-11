@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con GifGrid  Debe mostrar correctamente el componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flip animate__delay-0.5s "
+  >
+    soccer
+  </h3>
+  <p
+    className="animate__animated animate__bounceOut animate__delay-1s "
+  >
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
